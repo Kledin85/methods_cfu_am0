@@ -10,18 +10,17 @@
 # YOU DO the rest:
 
 
-"Hello World".include?("Hello")
+p "Hello World".include?("Hello")
+# The method incldude is checking if the sting "Hello World" includes the string "hello" and it does so it returns true.
 
+p "Hello World".end_with?("Hello")
+# The method end_with? is checking if the string "Hello World" ends with the string "hello" and it doesnt so it returns false.
 
-"Hello World".end_with?("Hello")
+p "Hello World".end_with?("rld")
+# the method end_with is checking if the sring ends with "rld" and it does so it returns true.
 
+p 12.even?
+# this method is checking if the integer is even
 
-"Hello World".end_with?("rld")
-
-
-12.even?
-
-
-18.next
-
-
+p 18.next
+# This method is is going to the next integer after 18
