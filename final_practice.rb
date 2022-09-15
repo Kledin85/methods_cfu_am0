@@ -32,7 +32,7 @@ p custom_greeting("howdy","Kyle")
 def square(num1)
   num1 * num1
 end
-p square
+p square(5)
 
 # What is the return value of your method?
 # How many arguments did you pass your method?
